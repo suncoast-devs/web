@@ -48,7 +48,7 @@ const TestDriveCourse = ({ data }) => (
             <div>
               <p className="heading">Fee</p>
               <p className="title is-5">
-                $1,999<sup>*</sup>
+                $1,200<sup>*</sup>
               </p>
             </div>
           </div>
