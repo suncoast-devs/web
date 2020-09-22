@@ -9,3 +9,5 @@ fields:
     required: false
   label: Name
   description: The speaker's full name
+pages:
+- content/conference/speakers.json
