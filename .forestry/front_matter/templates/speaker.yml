@@ -40,5 +40,9 @@ fields:
     labelField: 
   label: Speakers
   description: Spakers
-pages:
-- content/conference/speakers.json
+- name: host
+  type: text
+  config:
+    required: false
+  label: Host
+  description: Full name of event Host
