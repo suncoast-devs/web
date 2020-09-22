@@ -1,8 +1,14 @@
 ---
 label: Speaker
 hide_body: true
-display_field: name
+display_field: title
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The conference title, e.g. Summer 2020
 - name: speakers
   type: field_group_list
   fields:
@@ -12,17 +18,27 @@ fields:
       required: false
     label: Name
     description: Speaker's full name
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: Description of the talk
+  - name: talk_title
+    type: text
+    config:
+      required: false
+    label: Talk Title
+    description: Title of the speaker's talk
   config:
     min: 
     max: 
     labelField: 
   label: Speakers
   description: Spakers
-- name: name
-  type: text
-  config:
-    required: false
-  label: Name
-  description: The speaker's full name
 pages:
 - content/conference/speakers.json
