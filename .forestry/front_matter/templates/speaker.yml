@@ -18,6 +18,12 @@ fields:
       required: false
     label: Name
     description: Speaker's full name
+  - name: talk_title
+    type: text
+    config:
+      required: false
+    label: Talk Title
+    description: Title of the speaker's talk
   - name: description
     type: textarea
     default: ''
@@ -28,18 +34,21 @@ fields:
         format: markdown
     label: Description
     description: Description of the talk
-  - name: talk_title
-    type: text
-    config:
-      required: false
-    label: Talk Title
-    description: Title of the speaker's talk
   config:
     min: 
     max: 
     labelField: 
   label: Speakers
   description: Spakers
+- name: date
+  type: datetime
+  label: Date
+  description: Date of the conference
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: host
   type: text
   config:
