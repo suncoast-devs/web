@@ -46,3 +46,5 @@ fields:
     required: false
   label: Host
   description: Full name of event Host
+pages:
+- content/conferences/summer-2020.md
