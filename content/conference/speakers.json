@@ -1,3 +1,11 @@
 {
-  "name": "Jason L Perry"
+  "name": "Jason L Perry",
+  "speakers": [
+    {
+      "name": "Jason L Perry",
+      "talk_title": "The Important Ones",
+      "description": "The important ones are the important ones."
+    }
+  ],
+  "title": ""
 }
