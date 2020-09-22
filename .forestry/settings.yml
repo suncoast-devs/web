@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Conference
 - type: document
-  path: conference/speakers
+  path: conference/speakers.json
   label: Speakers
 upload_dir: uploads
 public_path: "/uploads"
