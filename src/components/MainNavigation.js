@@ -3,6 +3,7 @@ import { globalHistory as history } from '@reach/router/lib/history'
 import Link from './NavLink'
 import cx from 'classnames'
 import button from '../images/button.svg'
+import BLM from './BLM'
 
 class MainNavigation extends Component {
   state = { active: false }
@@ -33,7 +34,9 @@ class MainNavigation extends Component {
         )}
         role="navigation"
         aria-label="main navigation"
+        style={{ flexDirection: 'column' }}
       >
+        <BLM />
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
