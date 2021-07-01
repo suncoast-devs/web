@@ -34,6 +34,28 @@ const Cohort = ({
             </figure>
           </header>
 
+          {thankYou && (
+            <>
+              <div className="columns is-centered">
+                <div className="column is-half">
+                  <Image
+                      Tag="figure"
+                      className="image"
+                      fluid={thankYouImage.fluid}
+                      alt={thankYouImage.description}
+                    />
+                </div>
+              </div>
+              
+              <div
+                  className="notification content"
+                  dangerouslySetInnerHTML={{
+                    __html: thankYou.childMarkdownRemark.html,
+                  }}
+                />
+              </>
+            )}
+
           <div className="content">
             <p>
               After their 12-week journey to becoming Full-Stack Developers, our
@@ -43,7 +65,7 @@ const Cohort = ({
               to round out their full-stack understanding. We are proud to
               present to you our graduating students from {title}.
             </p>
-
+        
             <h3>Interested in hiring a graduate?</h3>
             <p>
               All of our graduates are ready for their first jobs as junior
@@ -74,23 +96,6 @@ const Cohort = ({
       <section className="hero demo-day-sponsor">
         <div className="hero-body">
           <div className="container">
-            {thankYou && (
-              <>
-                <div
-                  className="content"
-                  dangerouslySetInnerHTML={{
-                    __html: thankYou.childMarkdownRemark.html,
-                  }}
-                />
-                <Image
-                  Tag="figure"
-                  className="image"
-                  fluid={thankYouImage.fluid}
-                  alt={thankYouImage.description}
-                />
-                <hr />
-              </>
-            )}
             {sponsorText && (
               <>
                 <div
@@ -168,7 +173,7 @@ export const DemoDayCohortFragment = graphql`
       }
     }
     thankYouImage {
-      fluid(maxWidth: 240, maxHeight: 160, resizingBehavior: PAD) {
+      fluid {
         ...GatsbyContentfulFluid_withWebp
       }
       description
