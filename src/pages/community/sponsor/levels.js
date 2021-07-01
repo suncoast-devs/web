@@ -4,8 +4,8 @@ import ContentLayout from '../../../components/ContentLayout'
 import CommunityNavigation from '../../../components/community/CommunityNavigation'
 import SponsorshipNavigation from '../../../components/community/SponsorshipNavigation'
 
-export default () => (
-  <ContentLayout
+export default function SponsorshipLevels() {
+  return <ContentLayout
     title="Sponsorship"
     subTitle="Levels"
     nav={<CommunityNavigation />}
@@ -83,4 +83,4 @@ export default () => (
       </OutboundLink>
     </p>
   </ContentLayout>
-)
+}
