@@ -1,7 +1,5 @@
 # Suncoast Developers Guild
 
-[![Build Status](https://semaphoreci.com/api/v1/ambethia/web/branches/master/badge.svg)](https://semaphoreci.com/ambethia/web)
-
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
