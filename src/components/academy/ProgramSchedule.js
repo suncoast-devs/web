@@ -65,11 +65,17 @@ const ProgramSchedule = () => (
                       : cohort.endsOn}
                   </td>
                   <td>
-                    {cohort.format} / {cohort.delivery}
+                    {cohort.format === 'Night Shift' ? (
+                      <>{cohort.format}</>
+                    ) : (
+                      <>
+                        {cohort.format} / {cohort.delivery}
+                      </>
+                    )}
                   </td>
                   <td>
                     {cohort.format === 'Night Shift' ? (
-                      <>Tue, Thu &mdash; 6:30&ndash;9 p.m.</>
+                      <>{cohort.note}</>
                     ) : (
                       <>
                         Mon&ndash;Thu &mdash; 9 a.m.&ndash;5 p.m., Fri &mdash; 9
