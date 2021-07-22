@@ -23,13 +23,13 @@ const TestDriveCourse = ({ data }) => (
           <div className="level-item has-text-centered">
             <div>
               <p className="heading">Start Date</p>
-              <p className="title is-5">May 22, 2021</p>
+              <p className="title is-5">August 28, 2021</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
             <div>
               <p className="heading">End Date</p>
-              <p className="title is-5">June 26, 2021</p>
+              <p className="title is-5">Oct 2, 2021</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
@@ -90,8 +90,8 @@ const TestDriveCourse = ({ data }) => (
               </p>
 
               <p>
-                Classes are once week (as scheduled) at 10:00 a.m to 3 P.M. The course is taught{' '}
-                <strong>online</strong>.
+                Classes are once week (as scheduled) at 10:00 a.m to 3 P.M. The
+                course is taught <strong>online</strong>.
               </p>
 
               <p>
@@ -168,9 +168,7 @@ const TestDriveCourse = ({ data }) => (
                 <tr>
                   <th>
                     <h5 className="title is-5">Week Three</h5>
-                    <h6 className="subtitle is-6">
-                      CSS Layouts
-                    </h6>
+                    <h6 className="subtitle is-6">CSS Layouts</h6>
                   </th>
                   <td>
                     <ul>
@@ -184,13 +182,13 @@ const TestDriveCourse = ({ data }) => (
                 <tr>
                   <th>
                     <h5 className="title is-5">Week Four</h5>
-                    <h6 className="subtitle is-6">
-                      Responsive Web
-                    </h6>
+                    <h6 className="subtitle is-6">Responsive Web</h6>
                   </th>
                   <td>
                     <ul>
-                      <li>Improving the experience on different sized screens</li>
+                      <li>
+                        Improving the experience on different sized screens
+                      </li>
                       <li>Media Queries</li>
                       <li>Responsive Design</li>
                       <li>Mobile First Design</li>
@@ -200,9 +198,7 @@ const TestDriveCourse = ({ data }) => (
                 <tr>
                   <th>
                     <h5 className="title is-5">Week Five</h5>
-                    <h6 className="subtitle is-6">
-                      Intro to JavaScript
-                    </h6>
+                    <h6 className="subtitle is-6">Intro to JavaScript</h6>
                   </th>
                   <td>
                     <ul>
@@ -218,9 +214,7 @@ const TestDriveCourse = ({ data }) => (
                 <tr>
                   <th>
                     <h5 className="title is-5">Week Six</h5>
-                    <h6 className="subtitle is-6">
-                    Putting it altogether
-                    </h6>
+                    <h6 className="subtitle is-6">Putting it altogether</h6>
                   </th>
                   <td>
                     <ul>
