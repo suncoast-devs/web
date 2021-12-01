@@ -23,7 +23,7 @@ const TestDriveCourse = ({ data }) => (
           <div className="level-item has-text-centered">
             <div>
               <p className="heading">Start Date</p>
-              <p className="title is-5">February 5, 2023</p>
+              <p className="title is-5">February 5, 2022</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
