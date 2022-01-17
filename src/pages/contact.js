@@ -52,12 +52,12 @@ const ContactPage = () => (
               </p>
               <h4>Visit Us:</h4>
               <p className="h-adr">
-                <OutboundLink href="https://goo.gl/maps/2zxLR9jEs5w">
-                  <span className="p-street-address">2220 Central Ave</span>
+                {/* <OutboundLink href="https://goo.gl/maps/2zxLR9jEs5w">
+                  <span className="p-street-address">2220 Central Ave</span> */}
                   <span className="p-locality">St. Petersburg</span>,{' '}
-                  <span className="p-region">FL</span>,{' '}
-                  <span className="p-postal-code">33712</span>
-                </OutboundLink>
+                  <span className="p-region">FL</span>{/* ,{' '} */}
+                  {/* <span className="p-postal-code">33712</span>
+                </OutboundLink> */}
               </p>
               <h4>Call Us:</h4>
               <p className="tel">

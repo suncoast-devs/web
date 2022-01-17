@@ -156,8 +156,8 @@ class MailingListForm extends React.Component {
                       </form>
                     </div>
                     <div className="column">
-                      <h2 className="title">Take a Tour</h2>
-                      <p className="subtitle">Fridays at 12:00 p.m.</p>
+                      {/* <h2 className="title">Take a Tour</h2>
+                      <p className="subtitle">Fridays at 12:00 p.m.</p> */}
                       <div className="tour-carousel">
                         <div className="tour-carousel-body">
                           <Carousel auto loop>
@@ -173,12 +173,12 @@ class MailingListForm extends React.Component {
                           </Carousel>
                         </div>
                       </div>
-                      <div className="content">
+                      {/* <div className="content">
                         <p>
                           Come visit our campus in St. Petersburg, FL and see
                           what we&rsquo;re all about.
                         </p>
-                      </div>
+                      </div> 
                       <div className="buttons">
                         <a
                           href="https://calendly.com/suncoastio/campus-tour"
@@ -186,7 +186,7 @@ class MailingListForm extends React.Component {
                         >
                           RSVP
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
