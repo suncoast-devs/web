@@ -45,7 +45,7 @@ export default function SponsorshipLevels() {
         <tr>
           <th>Scholarships </th>
           <td>$1K - 15K</td>
-          <td>Diversity Scholarship ($1,000) Full Tuition ($14,900)</td>
+          <td>Diversity Scholarship ($1,900) Full Tuition ($14,900)</td>
         </tr>
         <tr>
           <th>Room Sponsor </th>
