@@ -22,7 +22,6 @@ const ProgramSchedule = () => (
             <tr>
               <td colSpan={6}>There are currently no cohorts scheduled.</td>
             </tr>
-          ))}
         </tbody>
       </table>
     </div>
