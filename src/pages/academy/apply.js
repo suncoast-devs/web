@@ -12,7 +12,8 @@ const AcademyIndex = () => (
     <Section>
       <Container>
         <PageTitle>Web Development Program Inquiry</PageTitle>
-        <ProgramApplication />
+        {/* <ProgramApplication /> */}
+        <p>Applications are currently closed. Please check back in the future.</p>
       </Container>
     </Section>
   </Layout>
