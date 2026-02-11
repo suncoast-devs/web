@@ -1,0 +1,72 @@
+---
+---
+<nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                <img src="/brand/button.svg" alt="SDG Button Icon" height="28" width="28">
+            </a>
+            <h1 class="navbar-item">
+                <a href="/" class="has-text-weight-bold is-uppercase has-text-dark">
+                    Suncoast Developers Guild
+                </a>
+            </h1>
+            <span class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNavbar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div class="navbar-menu" id="mainNavbar">
+            <div class="navbar-start">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="/academy" class="navbar-link">Academy</a>
+                    <div class="navbar-dropdown">
+                        <a href="/academy" class="navbar-item">Web Development Program</a>
+                        <a href="/academy/admissions" class="navbar-item">Admissions</a>
+                        <a href="/academy/tuition" class="navbar-item">Tuition &amp; Financing</a>
+                        <a href="/academy/part-time" class="navbar-item">Weekend Courses</a>
+                        <a href="/academy/tuition/scholarships" class="navbar-item">Diversity &amp; Scholarships</a>
+                        <a href="/academy/success" class="navbar-item">Success Stories</a>
+                        <a href="/academy/network" class="navbar-item">Hiring Network</a>
+                        <a href="/academy/faq" class="navbar-item">FAQ</a>
+                        <hr class="navbar-divider">
+                        <a href="/academy/apply" class="navbar-item">Apply Now</a>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="/community" class="navbar-link">Community</a>
+                    <div class="navbar-dropdown">
+                        <a href="/conference" class="navbar-item">Conference</a>
+                        <a href="/community" class="navbar-item">Member Organizations</a>
+                        <a href="/community/joint-training" class="navbar-item">Corporate Training</a>
+                        <a href="/jr" class="navbar-item">Kid's Classes</a>
+                        <a href="/community/supporters" class="navbar-item">Supporters</a>
+                        <a href="/community/sponsor" class="navbar-item">Sponsorship</a>
+                    </div>
+                </div>
+                <a href="/team" class="navbar-item">Our Team</a>
+                <a href="/blog" class="navbar-item">Blog</a>
+                <a href="/contact" class="navbar-item">Contact</a>
+            </div>
+            <div class="navbar-end">
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        if ($navbarBurgers.length > 0) {
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        }
+    });
+</script>

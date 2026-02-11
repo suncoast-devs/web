@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Program Catalog";
+const description = "Suncoast Developers Guild Academy Program Catalog";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Program Catalog</h1>
+                <h2 class="subtitle">Web Development Program</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning">
+                <h3 class="title is-4"><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>&nbsp; Not Currently Enrolling</h3>
+                <p>The Academy at Suncoast Developers Guild is not currently enrolling new students. Please check back later for updates or <a href="/contact">contact us</a> for more information.</p>
+            </div>
+            
+            <div class="content">
+                <p>For more information about our program and the admissions process, please contact us or check back when enrollment reopens.</p>
+            </div>
+        </div>
+    </section>
+</Layout>

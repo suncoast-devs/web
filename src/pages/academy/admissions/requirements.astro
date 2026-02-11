@@ -1,0 +1,46 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+const title = "Admissions Requirements";
+const description = "Hardware and software requirements for Suncoast Developers Guild Academy";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Requirements</h1>
+                <h2 class="subtitle">What you need to get started</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning">
+                <h3 class="title is-4"><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>&nbsp; Not Currently Enrolling</h3>
+                <p>The Academy at Suncoast Developers Guild is not currently enrolling new students. Please check back later for updates or <a href="/contact">contact us</a> for more information.</p>
+            </div>
+            
+            <div class="content">
+                <h3>Hardware Requirements</h3>
+                <p>A laptop computer is required for our program. The suggested computer for students is an Apple MacBook Pro laptop less than two years old. A PC laptop with the Windows operating system may also be preferred by some students.</p>
+                
+                <p><strong>Suggested Specifications:</strong></p>
+                <ul>
+                    <li>8GB of RAM</li>
+                    <li>250GB HDD or SSD</li>
+                    <li>Latest macOS or Windows Operating Systems</li>
+                </ul>
+                
+                <p><em>Why do we prefer Macs?</em> All of our students being on the same platform enables us to move at a much quicker pace. Processes like setting up new tools experience reduced friction because the same workflows apply to everyone.</p>
+                
+                <p>Additionally, The open source and web development communities are invested in tools and libraries that work best with POSIX based operating systems like UNIX, Linux, and Apple's macOS (BSD Unix). In short, we believe using the macOS best prepares our students to work in the web development industry.</p>
+                
+                <p>Students who choose to study .NET development with us may also find substantial benefit from using macOS.</p>
+                
+                <h3>Software Requirements</h3>
+                <p>The tools and materials used in our program are open source and free. No additional software is required.</p>
+            </div>
+        </div>
+    </section>
+</Layout>

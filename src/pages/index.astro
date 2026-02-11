@@ -1,17 +1,74 @@
 ---
+import Layout from '../layouts/Layout.astro';
 
+const title = "Suncoast Developers Guild";
+const description = "We are a collective of software developers, programmers, and designers in the Tampa Bay area.";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title={title} description={description}>
+    <section class="hero splash">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <img src="/brand/banner.svg" alt="Suncoast Developers Guild" width="512" />
+            </div>
+        </div>
+    </section>
+    
+    <section class="academy-community-duo section">
+        <div class="container">
+            <div class="columns is-variable is-8">
+                <div class="academy column has-text-centered">
+                    <h2 class="title is-2 is-spaced">
+                        <a href="/academy">Academy</a>
+                    </h2>
+                    <p class="subtitle">Learn to code with us.</p>
+                    <div class="content">
+                        <p class="has-text-left">
+                            The <strong>Academy at Suncoast Developers Guild</strong> is a
+                            code school that serves people, not profit. We are changing lives
+                            and teaching people to be the best software developers they can
+                            be.
+                        </p>
+                        <p>
+                            <a href="/academy/apply" class="button is-primary">Apply Now</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="community column has-text-centered">
+                    <h2 class="title is-2 is-spaced">
+                        <a href="/community">Community</a>
+                    </h2>
+                    <p class="subtitle">
+                        We are a collective of software engineers, programmers, and
+                        designers in Tampa Bay.
+                    </p>
+                    <div class="content">
+                        <p class="has-text-left">
+                            With thousands of members across dozens of local groups, our
+                            members touch all aspects of technology development in Tampa Bay.
+                        </p>
+                        <p class="buttons is-centered">
+                            <a href="https://join.slack.com/t/suncoast-devs/shared_invite/enQtNzY1NDAxMjk4NTYzLWUwZGQ4NjhjMmJiMmI5YTc4OGEzYjViMTgzNWQ1MGViZWI5MzI4NWRlNTAyMzljYjU1ZTNiYjkzZWY2YmI3NTE" class="button is-primary">
+                                Join us on Slack
+                            </a>
+                            <a href="https://sdg.codes/discord" class="button is-primary">
+                                Join us on Discord
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section has-background-white-bis">
+        <div class="container">
+            <div class="content has-text-centered">
+                <h2 class="title is-2 mission-gradient">Our Mission</h2>
+                <p class="subtitle is-4">
+                    We serve people by providing technology education and community support.
+                </p>
+            </div>
+        </div>
+    </section>
+</Layout>

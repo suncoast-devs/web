@@ -1,0 +1,37 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+const title = "Scholarships";
+const description = "Scholarships and diversity initiatives at Suncoast Developers Guild Academy";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Diversity &amp; Scholarships</h1>
+                <h2 class="subtitle">Making tech education accessible</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning">
+                <h3 class="title is-4"><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>&nbsp; Not Currently Enrolling</h3>
+                <p>The Academy at Suncoast Developers Guild is not currently enrolling new students. Please check back later for updates or <a href="/contact">contact us</a> for more information.</p>
+            </div>
+            
+            <div class="content">
+                <h3>Diversity Scholarship</h3>
+                <p>Suncoast Developers Guild seeks to narrow the gaps in our industry by introducing local companies to diverse talent. We offer a scholarship to members of communities that are underrepresented in technology.</p>
+                
+                <ul>
+                    <li>This opportunity is available, but not limited to: self-identifying women, people of color, individuals with disabilities, and the LGBTQ community. Members of all underrepresented groups may apply for this scholarship.</li>
+                    <li>We will deduct the scholarship amount from the total cost of tuition.</li>
+                </ul>
+                
+                <p>When enrollment reopens, scholarship applications will be available as part of the standard application process.</p>
+            </div>
+        </div>
+    </section>
+</Layout>

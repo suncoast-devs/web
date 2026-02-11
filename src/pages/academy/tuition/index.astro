@@ -1,0 +1,33 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+const title = "Tuition & Financing";
+const description = "Tuition and financing options for Suncoast Developers Guild Academy";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Tuition &amp; Financing</h1>
+                <h2 class="subtitle">Invest in your future</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning">
+                <h3 class="title is-4"><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>&nbsp; Not Currently Enrolling</h3>
+                <p>The Academy at Suncoast Developers Guild is not currently enrolling new students. Please check back later for updates or <a href="/contact">contact us</a> for more information.</p>
+            </div>
+            
+            <div class="content">
+                <h3>Program Tuition</h3>
+                <p>Tuition for the Immersive program is a flat fee of <strong>$14,900</strong> for the entire program. The tuition for the Night Shift program is $10,000. The tuition does not include any costs associated with parking, meals, or any other fees not specifically provided for in this catalog or the enrollment agreement. The tuition does not include any costs that may be required for, or associated with, the purchase of a laptop computer.</p>
+                
+                <h3>Payment</h3>
+                <p>After being accepted in to the program, you can reserve a seat in our course with a deposit of $1,000. The entire amount of the deposit will be applied to your tuition balance, and the remaining funds will be due before the first day of class unless alternative financing arrangements are made. Payment can be made by check, money order, debit, or credit card.</p>
+            </div>
+        </div>
+    </section>
+</Layout>

@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Hiring Network";
+const description = "Connect with Suncoast Developers Guild graduates for hiring";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Hiring Network</h1>
+                <h2 class="subtitle">Connect with our graduates</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning">
+                <h3 class="title is-4"><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>&nbsp; Not Currently Enrolling</h3>
+                <p>The Academy at Suncoast Developers Guild is not currently enrolling new students. Please check back later for updates or <a href="/contact">contact us</a> for more information.</p>
+            </div>
+            <div class="content">
+                <p>Looking to hire talented developers? Our graduates are trained in modern web development and ready to contribute to your team.</p>
+                <p><a href="/contact">Contact us</a> to learn more about connecting with our graduates.</p>
+            </div>
+        </div>
+    </section>
+</Layout>

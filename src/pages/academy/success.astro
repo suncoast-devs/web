@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Success Stories";
+const description = "Success stories from Suncoast Developers Guild Academy graduates";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Success Stories</h1>
+                <h2 class="subtitle">Graduate success stories</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="notification is-warning">
+                <h3 class="title is-4"><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>&nbsp; Not Currently Enrolling</h3>
+                <p>The Academy at Suncoast Developers Guild is not currently enrolling new students. Please check back later for updates or <a href="/contact">contact us</a> for more information.</p>
+            </div>
+            <div class="notification is-info">
+                <p>Our success stories page is currently being updated. Check back soon to read inspiring stories from our graduates.</p>
+            </div>
+        </div>
+    </section>
+</Layout>

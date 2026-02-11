@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Press Releases";
+const description = "Press releases and announcements from Suncoast Developers Guild";
+---
+
+<Layout title={title} description={description}>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Press Releases</h1>
+                <h2 class="subtitle">Announcements issued by Suncoast Developers Guild</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <article class="media">
+                <div class="media-content">
+                    <strong><a href="/press/night-shift">St. Pete's Coding Academy to Offer Night Classes</a></strong>
+                </div>
+                <div class="media-right">October 21, 2020</div>
+            </article>
+            <article class="media">
+                <div class="media-content">
+                    <strong><a href="/press/2020-summer-conference">Suncoast Developers Conference - Summer 2020</a></strong>
+                </div>
+                <div class="media-right">July 20, 2020</div>
+            </article>
+            <article class="media">
+                <div class="media-content">
+                    <strong><a href="/press/2020-summer-hackathon">SDG Summer Solstice Hackathon: Celebrating the Resilient Spirit of Developers and Tampa Bay</a></strong>
+                </div>
+                <div class="media-right">June 4, 2020</div>
+            </article>
+            <article class="media">
+                <div class="media-content">
+                    <strong><a href="/press/hero-award">SDG Announces "Hero Award" Scholarship</a></strong>
+                </div>
+                <div class="media-right">April 14, 2020</div>
+            </article>
+            <article class="media">
+                <div class="media-content">
+                    <strong><a href="/press/part-time">St. Pete's Coding School Offers Part-Time Classes</a></strong>
+                </div>
+                <div class="media-right">March 1, 2019</div>
+            </article>
+        </div>
+    </section>
+</Layout>

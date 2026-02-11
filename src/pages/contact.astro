@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Contact Us";
+const description = "Get in touch with Suncoast Developers Guild";
+---
+
+<Layout title={title} description={description}>
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2">Contact Us</h2>
+            <h3 class="subtitle">
+                Question? Comments? Just want to chat and say "Hello"?
+            </h3>
+            <div class="columns">
+                <div class="column is-narrow">
+                    <div class="content box">
+                        <p>Are you interested in:</p>
+                        <ul>
+                            <li>Learning web development?</li>
+                            <li>Graduates &amp; hiring?</li>
+                            <li>Community events?</li>
+                            <li>Donating or becoming a sponsor?</li>
+                            <li>Volunteering?</li>
+                            <li>Hiring a developer?</li>
+                        </ul>
+                        <p><em>Let us know!</em></p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h4>Email Us:</h4>
+                        <p>
+                            <a href="mailto:hello@suncoast.io">hello@suncoast.io</a>
+                        </p>
+                        <h4>Visit Us:</h4>
+                        <p class="h-adr">
+                            <span class="p-locality">St. Petersburg</span>,
+                            <span class="p-region">FL</span>
+                        </p>
+                        <h4>Call Us:</h4>
+                        <p class="tel">
+                            <a href="tel:1-727-201-2012">+1 (727) 201-2012</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>
