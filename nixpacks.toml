@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ['nodejs']
+
+[phases.install]
+cmds = ['pnpm install']
+
+[phases.build]
+cmds = ['pnpm run build']
+
+# Define the static output directory for serving
+[start]
+cmd = 'nixpacks-static dist'
